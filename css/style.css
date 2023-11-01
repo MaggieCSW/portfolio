@@ -11,36 +11,59 @@ body {
     margin: 0;
     padding: 0;
     /* background-color: rgb(188, 144, 139); */
+    /* background-color: rgb(69, 66, 66); */
     
 }
 
-
-
+/* ============================   INDEX   ================================ */
 /* ----------------------------------------header----------------------------------------------- */
 
 .header-row {
+    /* border: 2px solid red; */
     /* width: 100vw; */
     /* margin: 0; */
     padding: 20px;
     /* height: 100px; */
-    background-color: rgb(249, 249, 249);
+   
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 40%);
 }
 
-/* .headshot-img {
-    margin-right: 30px;
-} */
 
 .h2-heading {
-    margin-left: 20px;
+    padding-top: 25px;
+}
+
+.nav-div {
+    padding-left: 75px;
 }
 
 
+.name-col {
+    padding-left: 90px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+
+.top-nav {
+    padding-left: 65px;
+}
+
+#themeBtn {
+    margin-top: 9px;
+}
 
 
 
 /* -----------------------------------------main-------------------------------------------------- */
 
+.headshot-img {
+    margin-top: 20px;
+    border: 2px solid rgb(127, 123, 123);
+    border-radius: 7px;
+}
 
 
 
@@ -51,3 +74,39 @@ body {
 .address-item {
     border-style: none;
 }
+
+
+
+/* =====================   ABOUT   ==================================== */
+
+
+.about-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.address-list {
+    margin-top: 25px;
+}
+
+
+/* ============================   WORK   =============================== */
+
+
+.work-header {
+    margin-top: 20px;
+}
+
+#rowOne, #rowTwo, #rowThree {
+    border: 2px solid red;
+}
+
+#imgOne, #imgTwo, #imgThree, #imgFour {
+    margin-bottom: 20px;
+}
+
+
+
+/* ==========================================   CONTACT   ==================================*/
+
+
