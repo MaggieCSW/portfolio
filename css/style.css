@@ -1,7 +1,7 @@
 :root {
-    
     --font: 'Montaga', serif;
     --font2: 'Proza Libre', sans-serif;
+    --font3: 'Ysabeau Office', sans-serif;
 }
 
 * {box-sizing: border-box;}
@@ -10,6 +10,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #5d4a59;
+
     /* background-color: rgb(188, 144, 139); */
     /* background-color: rgb(69, 66, 66); */
     
@@ -17,13 +19,28 @@ body {
 
 /* ============================   INDEX   ================================ */
 /* ----------------------------------------header----------------------------------------------- */
+.name-header {
+    font-family: var(--font);
+    font-size: 50px;
+    /* color: black; */
+}
+
+.code-header {
+    padding-top: 50px;
+    /* font-family: var(--font); */
+}
+
+.code-link {
+    /* color: black; */
+}
 
 .header-row {
     padding: 20px 0;
 }
 
 .header {
-    box-shadow: 0px 3px 8px rgba(143, 140, 140, 0.4);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0px 3px 8px; #B17F76 */
 }
 
 
@@ -42,15 +59,20 @@ body {
 
 /* -----------------------------------------main-------------------------------------------------- */
 
+.quote-text {
+    font-family: var(--font3);
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+
 .headshot-img {
     margin-top: 20px;
-    border: 2px solid rgb(127, 123, 123);
+    border: 2px solid rgb(185, 196, 206);
     border-radius: 7px;
 }
 
-.break {
-    display: block;
-}
+
 
 
 
@@ -61,11 +83,25 @@ body {
 
 
 /* =====================   ABOUT   ==================================== */
-
+#aboutContainer {
+    border: 2px solid red;
+}
 
 .about-header {
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-right: 60px;
+    padding-left: 80px;
+    border: 2px solid green;
+}
+
+.about-img {
+
+}
+
+
+#accordionDiv {
+    margin-top: 70px;
 }
 
 
