@@ -80,6 +80,10 @@ body {
     border-radius: 7px;
 }
 
+.code-link {
+    color: rgb(178, 202, 225);
+}
+
 
 
 
@@ -88,10 +92,11 @@ body {
     /* border: 2px solid red; */
 }
 
+
 .about-header {
-    margin-top: 30px;
-    padding-right: 60px;
-    padding-left: 80px;
+    margin-top: 27px;
+    /* padding-right: 60px; */
+    /* padding-left: 80px; */
     font-size: 45px;
     color: rgb(203, 200, 200);
 }
@@ -102,10 +107,22 @@ body {
 
 
 #accordionDiv {
-    margin-top: 70px;
+    margin-top: 25px;
 }
 
+#accordianExample {
+    background-color: lightblue;
+}
 
+/* .header-button {
+    background-color: lightblue;
+    color: black;
+} */
+
+.body-text {
+    background-color: black;
+    color: white;
+}
 
 
 
@@ -125,11 +142,24 @@ body {
 } */
 
 .work-header {
-    margin-top: 30px;
-    padding-right: 60px;
-    padding-left: 80px;
+    margin-top: 27px;
+    /* padding-right: 60px;
+    padding-left: 80px; */
     font-size: 45px;
     color: rgb(203, 200, 200);
+}
+
+.project-row-one {
+    margin-top: 25px;
+}
+
+.project-row-two {
+    margin-top: 50px;
+    /* margin-bottom: 18px; */
+}
+
+#footer {
+    margin-top: 18px;
 }
 
 
@@ -149,17 +179,19 @@ body {
 } */
 
 .contact-header {
-    margin-top: 30px;
-    padding-right: 60px;
-    padding-left: 80px;
+    margin-top: 27px;
+    /* padding-right: 60px;
+    padding-left: 80px; */
     font-size: 45px;
     color: rgb(203, 200, 200);
 }
 
 .school-img {
     margin-left: 25px;
-    border: 2px solid rgb(178, 202, 225);
+    border: 2px solid rgb(132, 132, 133);
     border-radius: 8px;
+    /* margin-top: 0px; */
+    margin-bottom: 10px;
 }
 
 
@@ -184,14 +216,21 @@ body {
 
 .contact-info {
     color: whitesmoke;
-    padding-top: 40px;
+    margin-top: 25px;
     padding-left: 50px;
     /* border: 2px solid red; */
+}
+
+.github-h2, .email-h2, .academy-h2 {
+    color: rgb(47, 42, 42);
 }
 
 .contact-h3 {
     font-size: 20px;
 }
 
+.class-div {
+    margin-top: 30px;
+}
 
 
