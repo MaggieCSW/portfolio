@@ -94,7 +94,7 @@ body {
 
 
 .about-header {
-    margin-top: 27px;
+    /* margin-top: 27px; */
     /* padding-right: 60px; */
     /* padding-left: 80px; */
     font-size: 45px;
@@ -107,7 +107,7 @@ body {
 
 
 #accordionDiv {
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 #accordianExample {
@@ -142,21 +142,20 @@ body {
 } */
 
 .work-header {
-    margin-top: 27px;
+    /* margin-top: 27px; */
     /* padding-right: 60px;
     padding-left: 80px; */
     font-size: 45px;
     color: rgb(203, 200, 200);
 }
 
-.project-row-one {
+/* .project-row-one {
     margin-top: 25px;
 }
 
 .project-row-two {
     margin-top: 50px;
-    /* margin-bottom: 18px; */
-}
+} */
 
 #footer {
     margin-top: 18px;
@@ -179,7 +178,7 @@ body {
 } */
 
 .contact-header {
-    margin-top: 27px;
+    /* margin-top: 27px; */
     /* padding-right: 60px;
     padding-left: 80px; */
     font-size: 45px;
@@ -187,7 +186,7 @@ body {
 }
 
 .school-img {
-    margin-left: 25px;
+    /* margin-left: 25px; */
     border: 2px solid rgb(132, 132, 133);
     border-radius: 8px;
     /* margin-top: 0px; */
@@ -222,7 +221,7 @@ body {
 }
 
 .github-h2, .email-h2, .academy-h2 {
-    color: rgb(47, 42, 42);
+    color: rgb(27, 25, 25);
 }
 
 .contact-h3 {
