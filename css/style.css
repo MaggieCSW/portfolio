@@ -2,10 +2,10 @@
     --font: 'Montaga', serif;
     --font2: 'Proza Libre', sans-serif;
     --font3: 'Ysabeau Office', sans-serif;
+    --font4: 'Aref Ruqaa Ink', serif;
 }
 
 * {box-sizing: border-box;}
-
 
 body {
     margin: 0;
@@ -15,7 +15,7 @@ body {
 
 .name-header {
     font-family: var(--font);
-    font-size: 50px;
+    font-size: 45px;
     color: rgb(203, 200, 200);
 }
 
@@ -53,6 +53,7 @@ body {
 }
 
 .about-header {
+    font-family: var(--font4);
     font-size: 45px;
     color: rgb(203, 200, 200);
 }
@@ -72,17 +73,19 @@ body {
 }
 
 .work-header {
+    font-family: var(--font4);
     font-size: 45px;
     color: rgb(203, 200, 200);
 }
 
 .contact-header {
+    font-family: var(--font4);
     font-size: 45px;
     color: rgb(203, 200, 200);
 }
 
 .school-img {
-    border: 2px solid lightblue;
+    border: 2px solid rgb(178, 202, 225);
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -94,7 +97,7 @@ body {
 }
 
 .github-h2, .email-h2, .academy-h2 {
-    color: rgb(27, 25, 25);
+    color: rgb(202, 192, 192);
 }
 
 .contact-h3 {
